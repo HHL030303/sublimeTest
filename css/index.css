@@ -1,0 +1,1000 @@
+.top{
+
+    height: auto;
+    position: relative;
+}
+.top.active{
+    z-index: 5;
+}
+
+.top .topNav{
+
+    background: rgba(255,255,255,0.5);
+    position: absolute;
+    top:0;
+    z-index: 1;
+    bottom: 0;
+}
+.top .topNav .topNavLogo{
+    width: 100%;
+    height:144px;
+    background: -webkit-linear-gradient( #62b2ef , #0d67ab);
+    text-align: center;
+    line-height: 144px;
+
+}
+.top .topNav .topNavLogo img{
+    vertical-align: middle;
+    max-width: 100%;
+}
+.top .topNav  .navUl{
+    margin-top: 25px;
+    text-align: center;
+ 
+}
+.top .topNav  .navUl .navbar-brand{
+    text-align: center;
+}
+.top .topNav  .navUl li,.top .topNav  .navUl{
+    width: 100%;
+    height: 85px;
+    line-height: 85px;
+    text-align: center;
+}
+.top .topNav  .navUl li a{
+    font-size: 16px;
+    color:#333333 ;
+}
+
+.top .topBanner{
+    height: 100%;
+    position: absolute;
+    left: 17%;
+    right: 0;
+    z-index: -1;
+    background-image:url(../images/banner1.jpg);
+    background-position: center center;
+}
+/*language*/
+.language{
+    position: absolute;
+    top:0;
+    right: 100px;
+    height:30px;
+    line-height: 30px;
+}
+.language a{
+    color: #000;
+    font-size: 14px;
+}
+.language a:hover{
+    color: #2980c1;
+}
+.navbar-nav > li{
+    height: 85px;
+    line-height: 85px;
+}
+.navbar-nav > li > a,.navbar-brand {
+    font-size: 16px;
+    color: #333333;
+    padding: 0px 0px;
+    height:85px;
+    line-height: 85px
+}
+.navbar-collapse{
+    padding: 0;
+    width: 100%
+}
+.navbar-header .navbar-brand:hover,
+.nav > li > a:hover, 
+.nav > li > a:focus{
+    background:#eee;
+    color: #1e80ca
+}
+.navbar-nav{
+    margin: 10px 0
+}
+.navbar-header .navbar-brand.active,.nav > li > a.active{
+    position: relative;
+    color: #1e80ca
+}
+.navbar-header .navbar-brand.active:after,.nav > li > a.active:after{
+    content: "";
+    position: absolute;
+    left:13%;
+    top:50%;
+    width: 20%;
+    height:2px;
+    background: #1e80ca
+}
+
+.aboutCompany{
+    margin-left: 17%;
+    height: 710px;
+}
+.aboutCompany .aboutCompanyCon .aboutCompanyText{
+    width: 50%;
+    float: left;
+    margin-top: 400px;
+    position: relative;
+    margin-left: 30px;
+    height: 410px;
+}
+.aboutCompany .aboutCompanyCon{
+    height: 100%;
+}
+.aboutCompany .aboutCompanyCon .aboutCompanyText:after{
+    position: absolute;
+    content: "";
+    left: 15px;
+    bottom: 0;
+    width: 30%;
+    height: 1px ;
+    background: black;
+}
+.aboutCompany .aboutCompanyCon  .aboutCompanyImg{
+    width:25% ;
+    float: right;
+    margin-right: 15%;
+    position: relative;
+}
+.aboutCompany .aboutCompanyCon h3{
+    font-size: 30px;
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+.aboutCompany .aboutCompanyCon .aboutCompanyText p{
+    font-size: 16px;
+    color: #666666;
+    line-height: 30px;
+}
+
+.focus .hd{
+    width:100%;
+    height:11px;
+    position:absolute;
+    z-index:1; 
+    bottom:15px;
+    text-align:center;
+}
+.focus .hd ul{
+    display:inline-block;
+    height:5px;
+    padding:3px 5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    font-size:0;
+    vertical-align:top;
+}
+.focus .hd ul li{
+    display:inline-block;
+    width:5px;
+    height:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    background:#8C8C8C;
+    margin:0 5px;
+    vertical-align:top;
+    overflow:hidden;
+}
+.focus .hd ul .on{
+    background:#FE6C9C;
+}
+.aboutCompany .aboutCompanyCon   .focus .bd{
+    position:relative;
+    z-index:0;
+}
+.aboutCompany .aboutCompanyCon   .focus .bd li img{
+    width:100%;
+}
+.aboutCompany .aboutCompanyCon   .focus .bd li a{
+    -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+}
+.focus .hd ul li{
+    display:inline-block;
+    width:8px;
+     height:8px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    background:#8C8C8C;
+    margin:0 5px;
+    vertical-align:top;
+    overflow:hidden;
+}
+.focus .hd ul .on{
+    background:#156db0;
+}
+.productList{
+    margin-left:17%;
+    width: 83%;
+    position: relative;
+}
+.productList .listItem{
+    font-size: 0;
+}
+.listItem .listDemo{
+    display: inline-block;
+    width: 25%;
+    height:600px;
+    vertical-align: top;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.listItem .listDemo>p{
+    position: absolute;
+    left: 0;
+    top:94px;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    padding-bottom: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    z-index: 1;
+    margin-bottom: 0;
+}
+.listItem .listDemo p a{
+    color: white;
+}
+.listItem .listDemo:hover .pTtile{
+    display: none;
+}
+.listItem .listDemo:hover .listDemo{
+    background: rgba(0,0,0,0.3);
+}
+.listItem .listDemo>p:after{
+     position: absolute;
+     content: "";
+     left: 42%;
+    bottom:0px;
+     width: 16%;
+     height: 1px;
+     background: white;
+}
+.listItem .listDemo div{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    display: none;
+    transition: .5s;
+}
+.listItem .listDemo div>p{
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    padding: 20px 40px;
+    font-size: 16px;
+    color: white;
+    text-align: justify;
+    background: rgba(0,0,0,0.3);
+    margin-bottom: 0;
+}
+.listItem .listDemo:hover div{
+    display: block;
+    background: rgba(229,229,229,0.3);
+}
+.listItem .listDemo:hover .listItem .listDemo p::after{
+    position: absolute;
+    content: "";
+    left: 42%;
+    bottom:0px;
+    width: 16%;
+    height: 1px;
+    background: #bb1212;
+}
+.listItem .listDemo:hover  img{
+    webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.listDemo img{
+    -webkit-transform: scale(1);
+    -moz-transition: all .3s linear;
+    -moz-transform: scale(1);
+    -ms-transition: all .3s linear;
+    -ms-transform: scale(1);
+    -o-transition: all .3s linear;
+    -o-transform: scale(1);
+    transition: all .3s linear;
+    transform: scale(1);
+}
+
+.collapse{
+    display: none;
+}
+/*latestNews*/
+.latestNews{
+    margin-left: 17%;
+    width: 83%;
+    padding-left: 30px;
+}
+#myCarousel2{
+    height: 390px;
+}
+.latestNews #myCarousel2 .carousel-indicators li{
+     width: 12px;
+    height: 12px;
+    background: #e6e6e6;
+    border-radius: 50%;
+}
+.latestNews #myCarousel2 .carousel-indicators li.active{
+    width: 28px;
+    height: 12px;
+    border-radius: 5px;
+    background: -webkit-linear-gradient( #62b2ef , #0d67ab);
+    border: none;
+}
+#myCarousel2 .carousel-indicators{
+    bottom: 0;
+}
+
+.latestNewsH3{
+    font-size: 30px;
+    color: #333333;
+    font-weight: bold;
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+.contactUs{
+    margin-left: 17%;
+    width: 83%;
+    margin-bottom: 73px;
+}
+.contactUs .contactTitle{
+    text-align: center;
+    font-size: 30px;
+    font-weight:bold;
+    padding-bottom: 40px;
+    padding-top: 80px;
+
+
+}
+.contactUs .contactUsInfo{
+    width: 866px;
+    height:262px;
+    margin: 0 auto;
+    border: 1px solid #111111;
+    font-size: 16px;
+    color: #333333;
+    position: relative;
+
+}
+.contactUs .contactUsInfo:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 5px;
+    top:5px;
+    border: 1px solid #7f7f7f;
+
+}
+.contactUs .contactUsInfo p{
+    margin-left: 200px;
+    line-height: 28px;
+}
+.contactUs .contactUsInfo p:first-child{
+    margin-top: 32px;
+}
+.contactUs .contactUsInfo p a{
+    color: #333333;
+}
+.contactUs .contactUsInfo p span{
+    display: inline-block;
+    width: 400px;
+    text-align: center;
+}
+.latestNews #myCarousel2  .carousel-indicators {
+    width: 100%;
+    bottom: 10px;
+    left: 0%;
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0%;
+    text-align: center;
+}
+@media screen and (max-width: 480px){
+    .latestNews{
+        height: 190px !important;
+    }
+
+}
+@media screen and (max-width: 767px){
+    .language{
+        height:46px;
+        line-height: 46px;
+        display: none;
+    }
+    .language a{
+        color: white;
+        font-size: 0;
+    }
+    .top {
+        z-index: 2;
+    }
+    .navbar-collapse {
+        background: -webkit-linear-gradient(#62b2ef, #0d67ab);
+        z-index: 22;
+    }
+    .navbar-header .navbar-brand.active:after, .nav > li > a.active:after {
+        width: 0%;
+    }
+    .navbar-nav > li > a, .navbar-brand {
+        color: white;
+         font-size: 14px;
+        line-height: 50px;
+        height: 50px;
+    }
+    .navbar-nav {
+        margin: 0 0px;
+    }
+    .navbar-brand {
+        height: 100%;
+        padding: 0;
+        font-size: 18px;
+        line-height: 46px;
+        display: inline-block;
+        width:auto;
+        padding: 0px 15px;
+        color: white;
+    }
+    .top .topNav .navUl .navbar-brand img {
+        width: 144px;
+        display: inline-block;
+    }
+    .carousel-indicators {
+        z-index: 0;
+    }
+    .latestNews .carousel-indicators{
+        z-index: 1;
+    }
+    .aboutCompany {
+            margin-left: 0%;
+            height: auto;
+            overflow: hidden;
+            margin-top: 10px;
+            padding-bottom: 10px;
+            height: 256px;
+        }
+    .aboutCompany .aboutCompanyCon {
+        overflow: hidden;
+        position: relative;
+    }
+
+    .aboutCompany .aboutCompanyCon .aboutCompanyText {
+        padding-left: 15px;
+        width: 60%;
+        float: left;
+        margin-top: 0px;
+        position: relative;
+        margin-left: 0px;
+        height: auto;
+    }
+    .aboutCompany .aboutCompanyCon .aboutCompanyText:after {
+        position: absolute;
+        content: "";
+        left: 15px;
+        bottom: 0;
+        width: 30%;
+        height: 1px;
+        background: black;
+    }
+
+    .aboutCompany .aboutCompanyCon .aboutCompanyImg {
+        width: 30%;
+        float: right;
+        margin-right: 5px;
+    }
+
+    .aboutCompany .aboutCompanyCon h3 {
+        font-size: 14px;
+        color: #333333;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .aboutCompany .aboutCompanyCon .aboutCompanyText p {
+        font-size: 12px;
+        color: #666666;
+        padding-bottom: 20px;
+        line-height: 16px;
+    }
+
+    .productList {
+        margin-left: 0%;
+        width: 100%;
+        position: relative;
+    }
+    .listItem .listDemo:hover div{
+        display: none;
+    }
+
+
+    .listItem .listDemo{
+        display: inline-block;
+        width: 25%;
+        height: 100%;
+        vertical-align: top;
+    }
+    .listItem .listDemo p{
+        top:20px;
+        width: 100%;
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    .listItem .listDemo p:after{
+        position: absolute;
+        content: "";
+        left: 42%;
+        bottom:0px;
+        width: 16%;
+        height: 1px;
+        background: white;
+
+    }
+
+
+
+    .latestNews{
+        margin-left: 0%;
+        width: 100%;
+        height: 240px;
+        padding-left: 15px;
+    }
+    #myCarousel2{
+        height:auto;
+    }
+    .latestNews #myCarousel2 .carousel-indicators li{
+        width: 6px;
+        height: 6px;
+        background: #e6e6e6;
+        border-radius: 50%;
+    }
+    .latestNews #myCarousel2 .carousel-indicators li.active{
+        width: 14px;
+        height: 6px;
+        border-radius: 3px;
+        background: -webkit-linear-gradient( #62b2ef , #0d67ab);
+        border: none;
+    }
+    #myCarousel2 .carousel-indicators{
+        bottom: 0;
+    }
+
+    .latestNewsH3{
+        font-size: 14px;
+        color: #333333;
+        font-weight: bold;
+        padding-top: 35px;
+        padding-bottom: 14px;
+    }
+    /*contactUs*/
+    .contactUs{
+        margin-left: 4%;
+        width: 92%;
+        margin-bottom: 23px;
+    }
+
+    .contactUs .contactTitle{
+        text-align: left;
+        font-size: 14px;
+        font-weight:bold;
+        padding-bottom: 24px;
+        padding-top: 24px;
+    }
+    .contactUs .contactUsInfo{
+        width: 100%;
+        height:190px;
+        margin: 0 auto;
+        border: 1px solid #111111;
+        font-size: 12px;
+        color: #333333;
+        position: relative;
+
+    }
+    .contactUs .contactUsInfo:after{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        left: 5px;
+        top:5px;
+        border: 1px solid #7f7f7f;
+
+    }
+    .contactUs .contactUsInfo p{
+        margin-left: 25px;
+        line-height: 20px;
+    }
+    .contactUs .contactUsInfo p:first-child{
+        margin-top: 20px;
+    }
+    .contactUs .contactUsInfo p a{
+        color: #333333;
+    }
+    .contactUs .contactUsInfo p span{
+        display: inline-block;
+        width: 70%;
+        text-align: center;
+    }
+    .latestNews #myCarousel2  .carousel-indicators {
+        width: 100%;
+        bottom: 10px;
+        left: 0%;
+        width: 100%;
+        padding-left: 0;
+        margin-left: 0%;
+        text-align: center;
+    }
+    .navbar-collapse {
+        width: 160px;
+        position: fixed;
+        right: 0px;
+        top: 46px;
+        bottom: 0;
+        text-align: center;
+    }
+  .collapse {
+        display: block !important;
+        transform:translate3d(160px,0,0);
+        transition: .5s;
+    }
+    .collapse.in {
+        display: block;
+        transform:translate3d(0px,0,0);
+        transition: .5s;
+    }
+
+    .navbar-nav > li {
+        height: 50px;
+        line-height: 50px;
+    }
+    .top{
+        width: 100%;
+        vertical-align: top;
+        font-size: 14px;
+        height:auto;
+        position: relative;
+    }
+    .top .topNav{
+        width: 100%;
+        position: fixed;
+        top:0;
+        left: 0;
+        z-index: 1;
+        height:46px;
+        background: rgba(0,0,0,0);
+    }
+
+    .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .navbar .navbar-collapse {
+        background: #237bbe;
+    }
+    .top .topNav .topNavLogo{
+        width: 100%;
+        height:144px;
+        background: -webkit-linear-gradient( #62b2ef , #0d67ab);
+        text-align: center;
+        line-height: 144px;
+        display: none;
+    }
+    .top .topNav .topNavLogo img{
+        vertical-align: middle;
+        max-width: 100%;
+    }
+    .top .topNav  .navUl{
+        background: transparent;
+        margin-top: 0;
+        text-align: left;
+        height: 48px;
+    }
+    .top .topNav  .navUl.active{
+        background:#000
+    }
+    .top .topNav  .navUl li{
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+    }
+    .top .topNav  .navUl li a{
+        font-size: 16px;
+        color:#333333 ;
+    }
+    .top .topBanner{
+
+        display: none;
+    }
+    .arcitleContent,.aboutContent,.aboutContent{
+        z-index: 1;
+        margin-top:0px ;
+        margin-bottom: 10px;
+
+    }
+    .articleTitle, .aboutTitle, .aboutBrandTitle {
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .arcitleContent .container .article .articleTime {
+        text-align: center;
+    }
+
+    .articleTitle a{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .arcitleContent .container .article .articleText p{
+        font-size: 14px;
+        color: #333;
+        padding-bottom: 10px;
+        line-height: 22px;
+        text-indent: 2em;
+    }
+    .arcitleContent .container .article .articleText .articleImg{
+        text-align: center;
+        text-indent: 0;
+    }
+    .arcitleContent .container .article .articleText .articleImg img{
+        width: 80%
+    }
+    .arcitleContent  .article .paraMeter  .parmerterTitleNameList span{
+        display: inline-block;
+        margin-right: 15px;
+        margin-bottom: 10px;
+        vertical-align: top;
+    }
+    .arcitleContent .article .paraMeter .parmerterImgList span {
+        display: block;
+    }
+    .arcitleContent  .article .paraMeter  .parmerterImgList img{
+        margin-bottom: 10px;
+    }
+    .arcitleContent .container .article .articleBtn a {
+        font-size: 14px;
+        color: white;
+        padding: 7px 25px;
+        background: linear-gradient(#63b2f0,#0c66aa);
+        border-radius: 5px;
+    }
+    .arcitleContent, .aboutContent, .contactContent, .newslistContent {
+        z-index: 1;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 991px) and (min-width: 768px){
+    .listItem .listDemo:hover div{
+        display: none;
+    }
+    .navbar-header {
+        display: block;
+        float: none;
+    }
+    .navbar-nav > li {
+        text-align: center;
+    }
+    .aboutCompany{
+        height: 320px;
+        margin-top: 20px;
+    }
+    .aboutCompany .aboutCompanyCon .aboutCompanyText{
+        margin-top: 20px;
+        height: 300px;
+    }
+    .aboutCompany .aboutCompanyCon .aboutCompanyText:after{
+        height: 0;
+    }
+    .top .topNav  .navUl{
+        margin-top: 0
+    }
+    .topNavLogo{
+        display: none
+    }
+    .navbar-nav > li{
+        height: 50px;
+        line-height: 50px;
+    }
+    .navbar-nav > li > a,.navbar-brand {
+            font-size: 16px;
+            color: #333333;
+            padding: 0px 0px;
+            height:50px;
+            line-height: 50px
+    }
+    .listItem .listDemo{
+        height: auto;
+    }
+
+    .listItem .listDemo p a{
+        font-size: 20px;
+    }
+    .aboutCompany .aboutCompanyCon h3{
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+    .aboutCompany .aboutCompanyCon .aboutCompanyText p{
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .contactUs .contactUsInfo{
+          width:700px;
+    }
+}
+@media screen and (min-width: 992px){
+     .topNavLogo{
+        display: block;
+    }
+     .navbar-nav > li{
+        height: 60px;
+        line-height: 60px;
+         text-align: center;
+   }
+    .navbar-nav > li > a,.navbar-brand {
+        font-size: 16px;
+        color: #333333;
+        padding: 0px 0px;
+        height:60px;
+        line-height: 60px
+    }
+    .listItem .listDemo div>p{
+        font-size: 12px;
+        padding: 8px 5px;
+    }
+    .listItem .listDemo{
+        height: auto;
+    }
+    .aboutCompany{
+        height: 430px;
+        margin-top: 20px;
+    }
+    .aboutCompany .aboutCompanyCon .aboutCompanyText p{
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .aboutCompany .aboutCompanyCon .aboutCompanyText{
+         margin-top: 30px;
+        height: 350px;
+    }
+    .aboutCompany .aboutCompanyCon h3{
+        margin-bottom: 30px;
+    }
+    .contactUs .contactUsInfo{
+        width: 100%
+    }
+}
+@media screen and (min-width: 1200px){
+    .listItem .listDemo div>p{
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+     .navbar-nav > li{
+        height: 50px;
+        line-height: 50px;
+    }
+    .navbar-nav > li > a,.navbar-brand {
+        font-size: 16px;
+        color: #333333;
+        padding: 0px 0px;
+    }
+    .navbar-nav {
+            margin: 0px 0 0 0;
+    }
+    .aboutCompany .aboutCompanyCon  .aboutCompanyImg{
+        height: 349px;
+        overflow: hidden;
+        position: relative;
+    }
+     .contactUs .contactUsInfo{
+        width: 868px
+     }
+    .listDemo{
+
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+    .listItem .listDemo div>p{
+        font-size: 14px;
+        padding: 20px 10px;
+
+    }
+     .navbar-nav > li{
+        height: 50px;
+        line-height: 50px;
+    }
+    .navbar-nav > li > a,.navbar-brand {
+        font-size: 16px;
+        color: #333333;
+        padding: 0px 0px;
+    }
+
+    .navbar-nav {
+            margin: 0px 0 0 0;
+    }
+    .listItem .listDemo{
+        height:auto
+    }
+    .listItem .listDemo img{
+        /*height: 100%;*/
+    }
+    .aboutCompany{
+        height: 450px;
+        margin-top: 20px;
+    }
+    .aboutCompany .aboutCompanyCon  .aboutCompanyImg{
+        height: 400px;
+    }
+    .aboutCompany .aboutCompanyCon .aboutCompanyText{
+        margin-top: 25px;
+        height: 340px;
+    }
+}
+@media screen and (min-width: 1400px){
+    .listItem .listDemo div>p{
+        font-size: 16px;
+        padding: 20px 15px;
+    }
+    .aboutCompany{
+        height: 550px;
+        margin-top: 20px;
+    }
+    .aboutCompany .aboutCompanyCon .aboutCompanyText{
+        margin-top:50px;
+        height: 350px;
+    }
+    .aboutCompany .aboutCompanyCon h3{
+       margin-bottom: 30px;
+    }
+    .aboutCompany .aboutCompanyCon  .aboutCompanyImg{
+        height: 428px;
+    }
+}
+@media screen and (min-width: 1600px){
+    .listItem .listDemo div>p{
+        font-size: 16px;
+        padding: 20px 15px;
+    }
+    .navbar-nav > li{
+        height: 86px;
+        line-height: 86px;
+    }
+    .navbar-nav > li > a, .navbar-brand {
+        height: 86px;
+        line-height: 86px;
+    }
+
+    .aboutCompany {
+        height: 600px;
+    }
+    .contactUs .contactTitle {
+            margin: 0 auto;
+        }
+    .aboutCompany .aboutCompanyCon h3{
+        margin-bottom: 50px;
+    }
+    .aboutCompany .aboutCompanyCon  .aboutCompanyImg{
+        height: 565px;
+        overflow: hidden;
+        position: relative;
+    }
+    .aboutCompany .aboutCompanyCon  .aboutCompanyImg .bd{
+        overflow: hidden;
+        height: 100%;
+    }
+
+}

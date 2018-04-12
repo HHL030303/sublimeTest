@@ -1,0 +1,181 @@
+.newslistContent .newsListTitle{
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+.newslistContent .newsListConTitle{
+    font-size: 0;
+    color: #666666;
+}
+.newslistContent .newsListConTitle>li{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+}
+.newslistContent .newsListConTitle li p:first-child{
+
+    font-size: 16px;
+}
+.newslistContent .newsListConTitle li p:last-child{
+    font-size: 12px;
+}
+.newslistContent .newsListConTitle li.active{
+    color: #1e80ca;
+}
+.newsListDesc{
+    width:80% ;
+    margin-left: 15%;
+}
+.newslistContent .listItem img,.newslistContent .listItem .listArticle {
+    display: inline-block;
+    vertical-align: top;
+}
+.newslistContent .listItem{
+    padding-top: 62px;
+    padding-bottom: 50px;
+    margin-left: 10%;
+    margin-right:6% ;
+    border-bottom: 1px solid #e6e6e6;
+
+}
+.newslistContent .listItem img{
+    width:144px;
+    margin-right: 2.5%;
+}
+.newslistContent .listItem .listArticle {
+    width: 80%;
+}
+.newslistContent .listItem .listArticle .listTitle{
+    font-size: 18px;
+    padding-bottom: 24px;
+
+}
+.newslistContent .listItem .listArticle .listTitle a{
+    color: #333333;
+    font-size: 18px;
+}
+.newslistContent .listItem .listArticle .listContent{
+    line-height: 24px;
+}
+
+
+.newslistContent   .loadMore{
+    text-align: center;
+    overflow: hidden;
+    margin-top: 38px;
+    margin-bottom: 45px;
+}
+.newslistContent   .loadMore a{
+    display: inline-block;
+    padding:10px 33px ;
+    font-size: 14px;
+    color: #666666;
+    border: 1px solid #d9d9d9;
+    background: white;
+    border-radius:6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+
+}
+@media screen and (max-width: 640px){
+    .newslistContent .newsListTitle{
+        font-size: 14px;
+    }
+    .newslistContent .listItem  .listContent{
+        display: none;
+    }
+
+    .newslistContent .listItem  img{
+        width: 25%;
+    }
+    .newslistContent .listItem  .listArticle{
+        width: 70%;
+
+    }
+    .newslistContent .listItem{
+        padding-top: 6px;
+        padding-bottom: 6px;
+        margin-left: 0%;
+        margin-right: 0%;
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+    .newslistContent .listItem  .listArticle .listTitle{
+            padding-bottom: 10px;
+    }
+    .newslistContent .listItem  .listArticle .listTitle a{
+            font-size: 14px;
+    }
+    .newslistContent .newsListConTitle li p:first-child{
+            font-size: 14px;
+    }
+    .newslistContent .newsListConTitle li p:last-child{
+            font-size: 0px;
+    }
+}
+@media screen and (min-width: 641px) and (max-width: 768px){
+    .newslistContent .listItem img{
+        width: 25%;
+    }
+    .newslistContent .listItem .listArticle .listTitle{
+        padding-bottom: 10px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .newslistContent .listItem .listArticle .listTitle a{
+        font-size: 14px;
+    }
+    .newslistContent .listItem .listArticle{
+        width: 65%;
+    }
+    .newslistContent .listItem .listArticle .listContent{
+        line-height: 18px;
+    }
+    .newslistContent .listItem {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 10%;
+        margin-right: 6%;
+        border-bottom: 1px solid #e6e6e6;
+    }
+}
+@media screen and (max-width: 1199px) and (min-width: 768px){
+    .newslistContent .listItem img{
+        width: 20%;
+    }
+    .newslistContent .listItem .listArticle .listTitle{
+        padding-bottom: 10px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .newslistContent .listItem .listArticle .listTitle a{
+        font-size: 14px;
+    }
+    .newslistContent .listItem .listArticle{
+        width: 70%;
+    }
+    .newslistContent .listItem .listArticle .listContent{
+        line-height: 18px;
+    }
+    .newslistContent .listItem {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 10%;
+        margin-right: 6%;
+        border-bottom: 1px solid #e6e6e6;
+    }
+}
+@media screen and (max-width: 1700px) and (min-width: 1200px){
+    .newslistContent .listItem img {
+        width: 20%;
+        margin-right: 2.5%;
+    }
+    .newslistContent .listItem .listArticle {
+        width: 70%;
+    }
+    .newslistContent .listItem .listArticle .listTitle {
+        font-size: 16px;
+        padding-bottom: 12px;
+    }
+}

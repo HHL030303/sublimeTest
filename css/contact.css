@@ -1,0 +1,153 @@
+.contactTitle{
+    padding-bottom: 40px;
+}
+.contactUsWrap .col-form,.contactUsWrap .contactInfo{
+    display: inline-block;
+    vertical-align: top;
+}
+.contactUsWrap .col-form, .contactUsWrap .contactInfo p{
+    padding-bottom: 10px;
+    color: #333333;
+}
+.top .topBanner{
+    background-image: url(../images/contactBanner.jpg);
+    background-position: center center;
+}
+.col-form .form-group input::-webkit-input-placeholder,.col-form .form-group textarea::-webkit-input-placeholder {
+    color: #333333;
+    font-size: 14px;
+}
+.col-form .form-group input:-moz-placeholder,.col-form .form-group textarea:-moz-placeholder {
+    color: #333333;
+    font-size: 14px;
+}
+.col-form .form-group .form-control{
+    border:1px solid  #d9d9d9;
+}
+.col-form .form-group textarea.form-control{
+    height: 170px;
+}
+.col-form  .form-group .submit{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    padding: 12px 52px;
+    font-size: 14px;
+}
+.col-form .form-group:last-child{
+    text-align: right;
+}
+.contactUsWrap .siteMap{
+    height: 300px;
+}
+@media screen and (max-width: 768px){
+    .contactTitle{
+        padding-bottom: 10px;
+    }
+    .arcitleContent, .aboutContent, .contactContent {
+        z-index: 1;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .col-form .form-group input[type="text"]{
+        width: 100%;
+    }
+    .contactUsWrap .col-form{
+        width: 100%;
+        height: auto;
+    }
+    .contactUsWrap .contactInfo{
+        width: 100%;
+        margin-left: 0;
+    }
+    .contactUsWrap .col-form,.contactUsWrap .contactInfo{
+        display: inline-block;
+        vertical-align: top;
+    }
+    .contactUsWrap .col-form, .contactUsWrap .contactInfo p{
+        padding-bottom: 10px;
+        color: #333333;
+    }
+    .col-form .form-group textarea.form-control{
+        height:100px;
+    }
+    .col-form .form-group:last-child{
+        text-align: center;
+    }
+}
+@media screen and (min-width: 768px) {
+    .contactUsWrap .col-form{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .col-form .form-group input[type="text"]{
+        width: 100%;
+    }
+    .contactUsWrap .contactInfo{
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 30px;
+    }
+    .col-form .form-group:last-child{
+        text-align: left;
+    }
+
+}
+@media  screen and (min-width: 992px){
+    .contactUsWrap .col-form{
+        width: 44%;
+        height: 425px;
+        margin-left: 40px;
+    }
+    .contactUsWrap .contactInfo{
+        width: 300px;
+        margin-left: 6%;
+    }
+    .contactUsWrap .col-form,.contactUsWrap .contactInfo{
+        display: inline-block;
+        vertical-align: top;
+    }
+    .contactUsWrap .col-form, .contactUsWrap .contactInfo p{
+        padding-bottom: 10px;
+        color: #333333;
+    }
+    .col-form .form-group input[type="text"]{
+        width: 62.5%;
+    }
+
+}
+@media screen and (min-width: 1200px){
+    .contactContent .contactUs {
+        margin:0px 1% 80px 1% ;
+    }
+    .contactUsWrap .col-form{
+        width: 44%;
+        height: 425px;
+        margin-left: 20px;
+    }
+
+    .contactUsWrap .col-form,.contactUsWrap .contactInfo{
+        display: inline-block;
+        vertical-align: top;
+        width: 300px;
+        margin-left: 8%;
+    }
+    .contactUsWrap .col-form{
+        height: 300px;
+    }
+    .contactUsWrap .col-form, .contactUsWrap .contactInfo p{
+        padding-bottom: 10px;
+        color: #333333;
+    }
+    .col-form .form-group input[type="text"]{
+        width: 62.5%;
+    }
+}
+@media screen and (min-width: 1600px){
+    .contactContent .contactUs {
+        margin:0px 15% 80px 15% ;
+    }
+    .col-form .form-group:last-child{
+        text-align: right;
+    }
+}

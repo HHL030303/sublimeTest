@@ -1,0 +1,153 @@
+{
+	"index.html": {
+		"resources": [
+			"images/latestNews1.png",
+			"images/qcode1.jpg",
+			"css/footer.css",
+			"images/latestNews2.png",
+			"images/top4.png",
+			"css/newsList.css",
+			"images/qcode3.jpg",
+			"css/index.css",
+			"images/latestNews3.png",
+			"css/bootstrap.css",
+			"images/topLogo.png",
+			"images/logo.png",
+			"css/common.css",
+			"js/bootstrap.js",
+			"images/logo2.png",
+			"images/top3.png",
+			"js/TouchSlide.1.1.js",
+			"images/qcode2.jpg",
+			"css/about.css",
+			"images/bannerIndex.jpg",
+			"js/jquery.js",
+			"css/reset.css",
+			"images/list1.jpg",
+			"llist.html",
+			"list_center.html",
+			"list_product.html",
+			"contactUs.html",
+			"about.html",
+			"procuctCenter.html",
+			"images/top1.jpg"
+		],
+		"refer": [
+			"llist.html",
+			"list_center.html",
+			"list_product.html",
+			"contactUs.html",
+			"about.html",
+			"procuctCenter.html"
+		]
+	},
+	"llist.html": {
+		"resources": [
+			"css/list.css",
+			"css/footer.css",
+			"images/default.jpg",
+			"css/newsList.css",
+			"css/header.css",
+			"css/bootstrap.css",
+			"images/banner1.jpg",
+			"css/common.css",
+			"js/bootstrap.js",
+			"css/about.css",
+			"js/TouchSlide.1.1.js",
+			"css/reset.css",
+			"js/jquery.js"
+		]
+	},
+	"list_center.html": {
+		"resources": [
+			"images/block.jpg",
+			"css/bootstrap.css",
+			"css/list.css",
+			"css/footer.css",
+			"js/bootstrap.js",
+			"js/jquery.js",
+			"css/reset.css",
+			"css/header.css"
+		]
+	},
+	"list_product.html": {
+		"resources": [
+			"images/articleDemo.jpg",
+			"css/bootstrap.css",
+			"css/list.css",
+			"css/footer.css",
+			"js/bootstrap.js",
+			"js/jquery.js",
+			"css/reset.css",
+			"css/header.css",
+			"images/banner1.jpg"
+		]
+	},
+	"contactUs.html": {
+		"resources": [
+			"css/bootstrap.css",
+			"css/list.css",
+			"css/footer.css",
+			"css/common.css",
+			"js/bootstrap.js",
+			"images/contactBanner.jpg",
+			"css/about.css",
+			"css/contact.css",
+			"js/jquery.js",
+			"css/reset.css",
+			"css/header.css"
+		]
+	},
+	"about.html": {
+		"resources": [
+			"images/leftArr.png",
+			"images/honner4.jpg",
+			"css/list.css",
+			"css/footer.css",
+			"images/small3.jpg",
+			"images/small4.jpg",
+			"images/brand1.jpg",
+			"js/Scroll2.js",
+			"images/small5.jpg",
+			"css/header.css",
+			"images/honner5.jpg",
+			"images/honner1.jpg",
+			"css/bootstrap.css",
+			"images/rightArr.png",
+			"images/honner2.jpg",
+			"images/small2.jpg",
+			"js/bootstrap.js",
+			"js/TouchSlide.1.1.js",
+			"css/about.css",
+			"images/honner3.jpg",
+			"images/small1.jpg",
+			"js/jquery.js",
+			"css/reset.css",
+			"images/banner1.jpg",
+			"procuctCenter.html",
+			"index.html"
+		],
+		"refer": [
+			"procuctCenter.html",
+			"index.html"
+		]
+	},
+	"procuctCenter.html": {
+		"resources": [
+			"css/list.css",
+			"css/productCenter.css",
+			"css/footer.css",
+			"images/demo.jpg",
+			"css/newsList.css",
+			"css/header.css",
+			"css/bootstrap.css",
+			"css/common.css",
+			"js/bootstrap.js",
+			"js/TouchSlide.1.1.js",
+			"css/about.css",
+			"images/boockBg.png",
+			"css/reset.css",
+			"js/jquery.js"
+		]
+	}
+}

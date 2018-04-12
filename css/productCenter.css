@@ -1,0 +1,434 @@
+.newslistContent{
+    z-index: 1;
+    margin-top:-60px ;
+    margin-bottom: 80px;
+}
+
+.newslistContent .newsListTitle{
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+.newsListDiv .col-lg-4,.newsListDiv .col-md-4,
+.newsListDiv .col-sm-6{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.ProductList>div>p{
+    position: absolute;
+    width: 90%;
+    bottom:0;
+    left: 5%;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    height: 109px;
+    background: url("../images/boockBg.png") repeat-x center;
+    line-height: 148px;
+    margin: 0;
+
+}
+.newsListCon  {
+    width: 913px;
+    margin: 0 auto;
+    
+}
+.newsListDesc .ProductList img {
+    -webkit-transition: all .3s linear;-webkit-transform: scale(1);
+    -moz-transition: all .3s linear;-moz-transform: scale(1);
+    -ms-transition: all .3s linear;-ms-transform: scale(1);
+    -o-transition: all .3s linear;-o-transform: scale(1);
+    transition: all .3s linear;transform: scale(1);
+}
+.newsListDesc .ProductList div:hover img {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);-ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.newsListDesc .ProductList div:hover .ProductListTop{
+    background: rgba(0,0,0,0.5);
+    display: block;
+}
+.newsListDiv .ProductListTop{
+    position: absolute;
+    top:0;
+    left: 5%;
+    width: 90%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+}
+.newsListDiv .ProductListTop p{
+    text-align: center;
+    margin-top:118px;
+}
+.newsListDiv .ProductListTop p a{
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 14px;
+    color: white;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+.ProductList>div>p{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+@media screen and (max-width: 375px){
+    .newslistContent {
+        z-index: 1;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .newslistContent .container{
+        margin-left: 5px;
+        margin-right: 5px
+    }
+    .newsList  {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .newsListCon{
+        width: 100%;
+    }
+    .ProductList{
+        width: 140px;
+        height: 140px;
+       margin: 10px 5px;
+        padding: 0;
+    }
+     #newsList .ProductList div{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+    }
+    .ProductList>div>p{
+        position: static;
+        width: 100%;
+        background: none;
+        height: 30px;
+        color: #666;
+        font-size: 12px;
+        line-height: 26px;
+
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 416px){
+    .newslistContent {
+        z-index: 1;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .newslistContent .container{
+        margin-left: 5px;
+        margin-right: 5px
+    }
+    .newsList  {
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .newsListCon{
+        width: 100%;
+    }
+    .ProductList{
+        width: 170px;
+        height: 170px;
+       margin: 10px 5px;
+        padding: 0;
+    }
+     #newsList .ProductList div{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+    }
+    .ProductList>div>p{
+        position: static;
+        width: 100%;
+        background: none;
+        height: 30px;
+        color: #666;
+        font-size: 12px;
+        line-height: 26px;
+
+    }
+}
+@media screen and (min-width: 417px) and (max-width: 480px){
+    .newslistContent {
+        z-index: 1;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .newslistContent .container{
+        margin-left: 5px;
+        margin-right: 5px
+    }
+    .newsList  {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .newsListCon{
+        width: 100%;
+    }
+    .ProductList{
+        width: 190px;
+        height: 190px;
+        margin: 10px 5px;
+        padding: 0;
+    }
+     #newsList .ProductList div{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+    }
+    .ProductList>div>p{
+        position: static;
+        background: none;
+        height: 30px;
+        color: #666;
+        font-size: 12px;
+        line-height: 26px;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 640px){
+    .newslistContent {
+        z-index: 1;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .newslistContent .container{
+        margin-left: 5px;
+        margin-right: 5px
+    }
+    .newsList  {
+        max-width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .newsListCon{
+        width: 100%;
+    }
+    .ProductList{
+        width: 230px;
+        height: 230px;
+        margin: 10px 2px;
+        padding: 0;
+    }
+    
+     #newsList .ProductList div{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+    }
+    .ProductList>div>p{
+        position: static;
+        background: none;
+        height: 40px;
+        color: #666;
+        font-size: 12px;
+        line-height: 40px;
+    }
+}
+@media screen and (max-width: 640px){
+   .newsListTitle {
+        font-size: 18px !important;
+        color: #333333;
+        font-weight: bold;
+        padding-bottom: 15px !important;
+
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 641px){
+    .newslistContent {
+        z-index: 1;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .newslistContent .container{
+        margin-left: 5px;
+        margin-right: 5px
+    }
+    .newsListCon{
+        width: 80%;
+        margin: 0 auto;
+    }
+     #newsList .ProductList {
+        margin: 10px 0;
+    }
+      #newsList .ProductList div{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+    }
+    .newsListDesc .ProductList:hover .ProductListTop{
+        display: none;
+    }
+    .ProductList>div p{
+        position: absolute;
+        width: 90%;
+        bottom:0;
+        left: 5%;
+        color: white;
+        text-align: center;
+        height: 30px;
+        background: url("../images/boockBg.png") repeat-x center;
+        line-height:30px;
+        margin: 0;
+        font-size: 12px;
+        color: white;
+    }
+
+    .newslistContent .newsListTitle {
+        padding-bottom: 10px;
+    }
+    .newslistContent .newsListConTitle li p:first-child{
+        font-size: 14px;
+    }
+    .newslistContent .newsListConTitle li p:last-child{
+        font-size: 0
+    }
+    .newslistContent .newsListConTitle .container{
+        padding: 0;
+    }
+     .newsListDesc .ProductList div:hover .ProductListTop{
+        display: none
+    }
+
+}
+@media screen and (min-width: 768px){
+    .newslistContent .newsListTitle{
+       padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .navbar-nav > li {
+        text-align: center;
+    }
+    .navbar-header {
+        display: block;
+        float: none;
+    }
+     #newsList{
+        width: 540px;
+        margin: 0 auto;
+        height: auto;
+
+    }
+    .newsListCon{
+        width: 100%;
+    }
+      #newsList .ProductList div{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+    }
+     #newsList .ProductList {
+        margin: 15px 0;
+    }
+    .newsListDesc .ProductList div:hover .ProductListTop{
+        display: none
+    }
+    .newslistContent .container{
+        width: 70%;
+        margin-left: 20%;
+        box-shadow: 0 11px 22px 0 rgba(92,44,115,.3);
+        padding-right: 0px;
+        padding-left: 0px;
+        background: white;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+     #newsList{
+        width: 660px;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 1200px){
+     #newsList{
+        width:900px;
+        margin: 0 auto;
+
+    }
+    .newsListTitle{
+        text-align: center;
+        padding-top: 45px;
+        padding-bottom: 15px;
+    }
+    #newsList .ProductList {
+        width: 33.333%;
+        margin: 15px 0;
+    }
+
+    .ProductListTop{
+        display: block;
+    }
+    .newslistContent .container{
+        width:80% ;
+        margin-left: 18%;
+        box-shadow: 0 11px 22px 0 rgba(92,44,115,.3);
+        padding-right: 0px;
+        padding-left: 0px;
+        background: white;
+    }
+}
+@media screen and (min-width: 1600px){
+    .newslistContent .container{
+        width:1200px;
+        margin-left: 20%;
+        box-shadow: 0 11px 22px 0 rgba(92,44,115,.3);
+        padding-right: 0px;
+        padding-left: 0px;
+        background: white;
+    }
+    .newsListTitle{
+        padding-top: 75px;
+    }
+    #newsList{
+        width: 1050px;
+        margin: 0 auto;
+
+    }
+    .ProductList{
+        position: relative;
+        display: inline-block;
+        width: 274px;
+        height: 274px;
+        margin: 15px 12px;
+        overflow: hidden;
+        cursor: pointer;
+        padding: 0;
+
+}
+
+.ProductList> p{
+    position: absolute;
+    width: 100%;
+    bottom:0;
+    left: 0;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    height: 109px;
+    background: url("../images/boockBg.png") repeat-x center;
+    line-height: 148px;
+    margin: 0;
+
+}
+.newsListCon  {
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+
+}

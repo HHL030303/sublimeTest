@@ -1,0 +1,373 @@
+
+/*arcitleContent*/
+.arcitleContent,.aboutContent,.contactContent,.newslistContent{
+    z-index: 1;
+    margin-top:-60px ;
+    margin-bottom: 80px;
+}
+.aboutTitle , .aboutTitle , .aboutBrandTitle , .contactTitle,.newsListTitle {
+    font-size: 32px;
+    color: #333333;
+    font-weight: bold;
+    text-align: center;
+}
+@media screen and (max-width: 640px){
+    .arcitleContent,.aboutContent,.contactContent,.newslistContent{
+        z-index: 1;
+        margin-top:0px ;
+        margin-bottom: 30px;
+    }
+    .aboutTitle, .aboutTitle, .aboutBrandTitle, .contactTitle,.newsListTitle {
+        font-size: 18px;
+        color: #333333;
+        font-weight: bold;
+        padding-bottom: 15px !important;
+    }
+}
+@media screen and (max-width: 768px){
+    .arcitleContent,.aboutContent,.aboutContent{
+        z-index: 1;
+        margin-top:0px ;
+        margin-bottom: 10px;
+
+    }
+    .articleTitle, .aboutTitle, .aboutBrandTitle {
+            text-align: center;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            font-size: 16px;
+        font-weight:bold;
+    }
+
+    .arcitleContent .container .article .articleTime {
+        text-align: center;
+    }
+
+    .articleTitle a{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .arcitleContent .container .article .articleText p{
+        font-size: 14px;
+        color: #333;
+        padding-bottom: 10px;
+        line-height: 22px;
+        text-indent: 2em;
+    }
+    .arcitleContent .container .article .articleText .articleImg{
+        text-align: center;
+        text-indent: 0;
+    }
+
+
+    .arcitleContent .container .article .articleText .articleImg img{
+        width: 80%
+    }
+
+    .arcitleContent  .article .paraMeter  .parmerterTitleNameList span{
+        display: inline-block;
+        margin-right: 15px;
+        margin-bottom: 10px;
+        vertical-align: top;
+    }
+    .arcitleContent .article .paraMeter .parmerterImgList span {
+        display: block;
+    }
+    .arcitleContent  .article .paraMeter  .parmerterImgList img{
+        margin-bottom: 10px;
+    }
+    .arcitleContent .container .article .articleBtn a {
+        font-size: 14px;
+        color: white;
+        padding: 7px 25px;
+        background: linear-gradient(#63b2f0,#0c66aa);
+        border-radius: 5px;
+    }
+    .arcitleContent, .aboutContent, .contactContent {
+        z-index: 1;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .arcitleContent .container, .aboutContent .container, .contactContent .container{
+        margin-left: 5px;
+        margin-right: 5px
+    }
+    
+}
+
+@media (min-width: 768px){
+    .navbar-header {
+        display: block;
+        float: none;
+    }
+    .navbar-nav > li {
+        text-align: center;
+    }
+}
+@media screen and (min-width:769px) and (max-width: 1199px){
+   .arcitleContent .container,
+    .aboutContent .container,
+   .contactContent .container,
+   .newslistContent .container,
+   .footer .container{
+        width: 70%;
+        margin-left: 20%;
+        box-shadow: 0 11px 22px 0 rgba(92,44,115,.3);
+        padding-right: 0px;
+        padding-left: 0px;
+        background: white;
+    }
+    .footer .container{
+        background: none;
+        box-shadow:none
+    }
+    .arcitleContent .container .article,
+    .aboutContent .container .about {
+        margin:0px 60px 80px 60px ;
+    }
+     .articleTitle,.aboutTitle,.aboutBrandTitle{
+        text-align: center;
+        padding-top: 75px;
+        padding-bottom: 15px;
+    }
+    .aboutContent  .aboutWhiteShark{
+        font-size: 14px;
+        color: #333333;
+        overflow: hidden;
+     }
+    .aboutContent  .aboutWhiteShark p{
+        padding-bottom: 20px;
+        text-indent: 2em;
+        line-height: 24px;
+    }
+    .arcitleContent .container .article .paraMeter .paraMeterTitle{
+        font-size: 16px;
+        color: #333333;
+        font-weight: bold;
+        text-align: center;
+    }
+    .arcitleContent .container .article .paraMeter{
+        font-size: 14px;
+        color: #333333;
+        line-height: 24px;
+    }
+    .arcitleContent .container .article .paraMeter  .paraMeterEng{
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .arcitleContent .container .article .paraMeter .parameterModel{
+        vertical-align: top;
+        padding-bottom: 15px;
+    }
+
+    .arcitleContent .container .article .paraMeter .parmerterTitleName,
+    .arcitleContent  .article .paraMeter   .parmerterImgName{
+        width: 110px;
+        display: inline-block;
+        padding-left: 25px;
+        padding-right: 15px;
+    }
+    .arcitleContent  .article .paraMeter  .parmerterTitleNameList{
+        display: inline-block;
+        width: 410px;
+        vertical-align: top;
+    }
+    .arcitleContent  .article .paraMeter  .parmerterImgList{
+        display: inline-block;
+        width: 637px;
+        vertical-align: top;
+    }
+    .arcitleContent  .article .paraMeter  .parmerterImgList span{
+        display: block;
+    }
+    .arcitleContent  .article .paraMeter  .parmerterImgList img{
+        margin-bottom: 30px;
+        width: 70%;
+    }
+    .arcitleContent  .article .paraMeter  .parmerterTitleNameList span{
+        display: inline-block;
+        margin-right: 37px;
+        margin-bottom: 15px;
+        vertical-align: top;
+    }
+    .parmeterInto{
+        padding-bottom: 25px;
+    }
+    .arcitleContent .container .article .articleTime {
+        text-align: center;
+        font-size: 14px;
+        color: #333333;
+        padding: 24px 0;
+    }
+    .arcitleContent .container .article .articleTitle a{
+        font-size: 24px;
+        color: #333333;
+    }
+    .arcitleContent .container .article .articleText p{
+        font-size: 14px;
+        color: #333;
+        padding-bottom: 20px;
+        line-height: 22px;
+    }
+    .arcitleContent .container .article .articleText .articleImg{
+        text-align: center;
+    }
+     .arcitleContent .container .article .articleText .articleImg img{
+        width: 72%
+     }
+    .arcitleContent .container .article .articleBtn{
+        text-align: center;
+        padding: 65px 0 85px 0;
+    }
+    .arcitleContent .container .article .articleBtn a{
+        font-size: 16px;
+        color: white;
+        padding:15px  50px ;
+        background: linear-gradient(#63b2f0,#0c66aa);
+        border-radius: 5px;
+    }
+
+
+}
+@media screen and (min-width: 1200px) {
+    .arcitleContent .container,
+    .aboutContent .container,
+    .contactContent .container,
+    .newslistContent .container{
+        width:80% ;
+        margin-left: 18%;
+        box-shadow: 0 11px 22px 0 rgba(92,44,115,.3);
+        padding-right: 0px;
+        padding-left: 0px;
+        background: white;
+    }
+    .footer .container{
+        background: none;
+        box-shadow: none ;
+    }
+
+    .arcitleContent  .article,
+    .aboutContent  .about,
+    .contactContent .contactUs {
+        margin:0px 130px 80px 130px ;
+    }
+     .articleTitle,.aboutTitle,.aboutBrandTitle,.contactTitle,.newsListTitle{
+        text-align: center;
+        padding-top: 75px;
+        padding-bottom: 15px;
+    }
+    .aboutContent  .aboutWhiteShark{
+       
+     }
+    .aboutContent  .aboutWhiteShark p{
+        padding-bottom: 20px;
+        text-indent: 2em;
+        line-height: 24px;
+    }
+    .arcitleContent .container .article .paraMeter .paraMeterTitle{
+        font-size: 16px;
+        color: #333333;
+        font-weight: bold;
+        text-align: center;
+    }
+    .arcitleContent .container .article .paraMeter{
+        font-size: 14px;
+        color: #333333;
+        line-height: 24px;
+    }
+    .arcitleContent .container .article .paraMeter  .paraMeterEng{
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .arcitleContent .container .article .paraMeter .parameterModel{
+        vertical-align: top;
+        padding-bottom: 15px;
+    }
+
+    .arcitleContent .container .article .paraMeter .parmerterTitleName,
+    .arcitleContent  .article .paraMeter   .parmerterImgName{
+        width: 110px;
+        display: inline-block;
+        padding-left: 25px;
+        padding-right: 15px;
+    }
+    .arcitleContent  .article .paraMeter  .parmerterTitleNameList{
+        display: inline-block;
+        width: 410px;
+        vertical-align: top;
+    }
+    .arcitleContent  .article .paraMeter  .parmerterImgList{
+        display: inline-block;
+        width: 637px;
+        vertical-align: top;
+    }
+    .arcitleContent  .article .paraMeter  .parmerterImgList span{
+        display: block;
+    }
+    .arcitleContent  .article .paraMeter  .parmerterImgList img{
+        margin-bottom: 30px;
+    }
+    .arcitleContent  .article .paraMeter  .parmerterTitleNameList span{
+        display: inline-block;
+        margin-right: 37px;
+        margin-bottom: 15px;
+        vertical-align: top;
+    }
+    .parmeterInto{
+        padding-bottom: 25px;
+    }
+    .arcitleContent .container .article .articleTime {
+        text-align: center;
+        font-size: 14px;
+        color: #333333;
+        padding: 24px 0;
+    }
+    .arcitleContent .container .article .articleTitle a{
+        font-size: 24px;
+        color: #333333;
+    }
+    .arcitleContent .container .article .articleText p{
+        font-size: 14px;
+        color: #333;
+        padding-bottom: 30px;
+        line-height: 22px;
+    }
+    .arcitleContent .container .article .articleText .articleImg{
+        text-align: center;
+    }
+     .arcitleContent .container .article .articleText .articleImg img{
+        width: 72%
+     }
+    .arcitleContent .container .article .articleBtn{
+        text-align: center;
+        padding: 65px 0 85px 0;
+    }
+    .arcitleContent .container .article .articleBtn a{
+        font-size: 16px;
+        color: white;
+        padding:15px  50px ;
+        background: linear-gradient(#63b2f0,#0c66aa);
+        border-radius: 5px;
+    }
+
+}
+@media screen and (min-width: 1600px) {
+    .arcitleContent .container,
+    .aboutContent .container,
+    .contactContent .container,
+    .newslistContent .container
+    {
+        width:1200px;
+        margin-left: 20%;
+        box-shadow: 0 11px 22px 0 rgba(92,44,115,.3);
+        padding-right: 0px;
+        padding-left: 0px;
+        background: white;
+    }
+    .footer .container{
+        background: none;
+        box-shadow: none;
+    }
+}

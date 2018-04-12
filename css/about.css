@@ -1,0 +1,449 @@
+.top .topBanner{
+    background-image:url(../images/aboutBanner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.aboutTitle a,.aboutTitle a,.aboutBrandTitle a{
+    font-size: 32px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.aboutTitle{
+    padding-bottom: 35px;
+}
+ .aboutContent .container .about {
+        margin: 0;
+ }
+ .aboutContent .container .about .aboutWhiteShark{
+    margin: 0px 130px 0px 130px;
+    font-size: 14px;
+    color: #333333;
+    overflow: hidden;
+ }
+.aboutContent .container .about .aboutBrand{
+    margin: 0px 45px 80px 45px;
+}
+.aboutContent .container .bigHonnerImg {
+    margin-left: 10%;
+    width: 80%;
+    height: 425px;
+    vertical-align: middle;
+    font-size: 0
+}
+.aboutContent .container .honnerImgWrap{
+    overflow: hidden;
+    position: relative;
+}
+.aboutContent .container .honnerImgWrap a.honnerPrev{
+    display: inline-block;
+    width: 18px;
+    /*margin-right: 10%;*/
+    line-height: 364px;
+    vertical-align: top;
+}
+.aboutContent .container .honnerImgWrap a.honnerNext{
+    display: inline-block;
+    width: 18px;
+    /*margin-left: 10%;*/
+    line-height: 364px;
+    vertical-align: top;
+}
+.aboutContent .container .about .bigHonnerUL{
+    display: inline-block;
+    width: 513px;
+    height: 425px;
+    overflow: hidden;
+    position: relative;
+}
+.aboutContent .container .about .bigHonnerUL .ImgUl{
+    position: absolute;
+    left: 0;
+    top:0;
+}
+
+.aboutContent .container .about .bigHonnerUL li{
+    display: inline-block;
+    width: 513px;
+    height: 364px;
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+}
+.aboutContent .container .about .bigHonnerUL li.active img{
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    opacity: 1;
+}
+.aboutContent .container .about .bigHonnerUL p{
+    padding: 26px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #333333;
+}
+.smallHonnerImg{
+    font-size: 0;
+    overflow:hidden;
+    width: 100%;
+    text-align: center;
+    height: 129px;
+    position: absolute;
+    left: 0;
+}
+.aboutContent .container .about .smallHonnerImg  a{
+    display: inline-block;
+
+}
+.aboutContent .container .about .smallHonnerImg  a img{
+    border: 1px solid white;
+}
+.aboutContent .container .about .smallHonnerImg  a.active img{
+    border:1px solid red;
+}
+.aboutContent .container .about .aboutBrand .aboutBrandDescList{
+    vertical-align: top;
+    font-size: 0;
+}
+.aboutContent  .about .aboutBrand  img{
+    margin-right: 46px;
+}
+.aboutContent  .about .aboutBrand .aboutBrandText,
+.aboutContent  .about .aboutBrand  img{
+    display: inline-block;
+    vertical-align: top;
+    word-wrap: break-word;
+    word-break: normal;
+}
+.aboutContent .container .about .aboutBrandConTitle{
+    text-align: center;
+    padding-bottom: 48px;
+}
+.aboutContent .container .about .aboutBrandConTitle  span{
+    display: inline-block;
+    margin-right: 105px;
+    font-size: 18px;
+    padding-bottom:8px ;
+}
+.aboutContent .container .about .aboutBrandConTitle  span.active{
+    color: #237bbe;
+    border-bottom: 2px solid #8ab9dc;
+}
+.aboutContent .container .about  .aboutBrandText p{
+    text-indent: 2em;
+}
+.aboutContent .container .about  .aboutBrandText .brandText{
+    text-indent: 0;
+    color: #333333;
+    font-size: 14px;
+}
+@media screen and (max-width: 321px){
+    .aboutContent .container .about .bigHonnerUL {
+            display: block;
+            width: 250px !important;
+            height: 240px;
+            margin: 0 auto;
+        }
+}
+@media  screen and (max-width:768px){
+    .aboutContent .container .about .aboutWhiteShark{
+        margin:0px 0px 0px 0px
+    }
+    .aboutTitle{
+        text-align: center;
+        padding-bottom: 0px;
+        font-size: 16px;
+        font-weight: bold
+    }
+    .aboutTitle a, .aboutTitle a, .aboutBrandTitle a {
+        font-size: 14px;
+        color: #333333;
+        font-weight: bold;
+    }
+    .aboutContent .aboutWhiteShark p {
+        padding-bottom: 10px;
+        text-indent: 2em;
+        line-height: 24px;
+        font-size: 12px;
+    }
+    .aboutContent .container .about .aboutBrandConTitle{
+        padding-bottom: 10px;
+    }
+    .aboutContent .container .bigHonnerImg{
+        position: relative;
+        margin-left: 0;
+        font-size: 0;
+        vertical-align: top;
+        width: 100%;
+        height:230px ;
+    }
+
+
+    .aboutContent .container .about .aboutBrandConTitle  span{
+        display: inline-block;
+        margin-right: 30px;
+        font-size: 14px;
+        padding-bottom:8px ;
+    }
+    .aboutContent .container .about .aboutBrandConTitle  span.active{
+        color: #237bbe;
+        border-bottom: 2px solid #8ab9dc;
+    }
+    .aboutContent .container .about .aboutBrand {
+        margin: 0px 10px 10px 10px;
+    }
+    .aboutContent  .about .aboutBrand  img{
+         margin-right: 0;
+    }
+    .aboutContent .container .about .bigHonnerUL{
+        display: block;
+        width: 280px;
+        height: 240px;
+       margin: 0 auto;
+    }
+
+    .aboutContent .container .honnerImgWrap a.honnerPrev{
+        display: inline-block;
+        width: 9px;
+        height:15px;
+        position: absolute;
+        left: 0%;
+        top:43%;
+        line-height: 0;
+        margin-top: -8px;
+    }
+    .aboutContent .container .honnerImgWrap a.honnerNext{
+        display: inline-block;
+        width: 9px;
+        height:15px;
+        position: absolute;
+        right: 0%;
+        top:43%;
+        margin-top: -8px;
+        line-height: 0
+    }
+    
+    .aboutContent .container .about .bigHonnerUL li{
+        display: inline-block;
+        width: 280px;
+        height: 240px;
+        filter: alpha(opacity=0);
+        -moz-opacity: 0;
+    }
+
+    .aboutContent .container .about .smallHonnerImg{
+        font-size: 0;
+        display: none
+    }
+    .aboutContent .container .about .smallHonnerImg  a{
+        display: inline-block;
+        margin-left: 2%;
+        width: 18%;
+    }
+    .aboutContent  .about .aboutBrand  img{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .aboutContent  .about .aboutBrand .aboutBrandText{
+        width: 100%;
+        margin-right: 0;
+        font-size: 12px;
+    }
+    .brandTrait,.brandDesign{
+        padding-bottom: 5px;
+    }
+    .aboutContent .container .about .bigHonnerUL p {
+        padding: 6px 0;
+        text-align: center;
+        font-size: 14px;
+        color: #333333;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .aboutContent .container .about .aboutBrandConTitle span {
+        display: inline-block;
+        margin-right: 30px;
+        font-size: 14px;
+        padding-bottom: 6px;
+    }
+    .aboutContent  .about .aboutBrand  img{
+        width: 30%;
+        margin-left: 5%;
+        margin-right:5%;
+    }
+    .aboutContent  .about .aboutBrand .aboutBrandText{
+        width: 60%;
+        margin-right: 0;
+        font-size: 14px;
+    }
+    .brandTrait,.brandDesign{
+        padding-bottom: 10px;
+    }
+    .aboutContent .container .bigHonnerImg {
+        width: 441px;
+        height: 250px;
+        vertical-align: middle;
+        font-size: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .aboutContent .container .about .bigHonnerUL{
+        width: 320px;
+        height: 250px;
+    }
+    .aboutContent .container .about .bigHonnerUL li{
+        display: inline-block;
+        width: 320px;
+        height: 250px;
+        filter: alpha(opacity=0);
+        -moz-opacity: 0;
+    }
+    .aboutContent .container .honnerImgWrap a.honnerPrev{
+        display: inline-block;
+        width: 18px;
+        margin-right: 27px;
+        line-height: 227px;
+        vertical-align: top;
+    }
+    .aboutContent .container .honnerImgWrap a.honnerNext{
+        display: inline-block;
+        width: 18px;
+        margin-left: 27px;
+        line-height: 227px;
+        vertical-align: top;
+    }
+    .aboutContent .container .about .bigHonnerUL p {
+        padding: 6px 0;
+        text-align: center;
+        font-size: 14px;
+        color: #333333;
+    }
+    .aboutContent .container .about .smallHonnerImg a{
+
+    }
+    .smallHonnerImg{
+        display: none
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width:1199px){
+
+    .aboutContent .container .about .aboutBrandConTitle span {
+        margin-right: 60px;
+        font-size: 14px;
+    }
+    .aboutContent  .about .aboutBrand  img{
+        width: 30%;
+        margin-left: 5%;
+        margin-right: 0;
+    }
+    .aboutContent  .about .aboutBrand .aboutBrandText{
+        width: 60%;
+        margin-right: 0;
+        font-size: 14px;
+    }
+    .brandTrait,.brandDesign{
+        padding-bottom: 10px;
+    }
+    .aboutContent .container .bigHonnerImg {
+        width: 708px;
+        height: 425px;
+        vertical-align: middle;
+        font-size: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .aboutContent .container .honnerImgWrap a.honnerPrev{
+        display: inline-block;
+        width: 18px;
+        margin-right: 75px;
+        line-height: 364px;
+        vertical-align: top;
+    }
+    .aboutContent .container .honnerImgWrap a.honnerNext{
+        display: inline-block;
+        width: 18px;
+        margin-left: 75px;
+        line-height: 364px;
+        vertical-align: top;
+    }
+    .aboutContent .container .about .smallHonnerImg a {
+        display: inline-block;
+        margin-left: 28px;
+     /*   margin-left: 5%;
+        width: 15%;*/
+        border: 1px solid white;
+    }
+    .aboutContent .container .about .smallHonnerImg a img{
+        width: 180px;
+        height: 100%;
+        margin-left: 20px
+    }
+     .aboutContent .container .honnerImgWrap{
+        height:600px 
+    }
+}
+@media screen and (min-width: 1200px){
+    .aboutContent .container .bigHonnerImg{
+         width: 708px;
+        height: 425px;
+        vertical-align: middle;
+        font-size: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .aboutContent .container .honnerImgWrap{
+        height:600px 
+    }
+    .aboutContent  .about .aboutBrand  img{
+        width: 30%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .aboutContent  .about .aboutBrand .aboutBrandText{
+        width: 60%;
+        margin-right: 0;
+        font-size: 14px;
+    }
+    .brandTrait,.brandDesign{
+        padding-bottom: 20px;
+    }
+    .aboutContent .container .honnerImgWrap a.honnerPrev{
+        display: inline-block;
+        width: 18px;
+        margin-right: 75px;
+        line-height: 364px;
+        vertical-align: top;
+    }
+    .aboutContent .container .honnerImgWrap a.honnerNext{
+        display: inline-block;
+        width: 18px;
+        margin-left: 75px;
+        line-height: 364px;
+        vertical-align: top;
+    }
+    .smallHonnerImg{
+        text-align: left;
+    }
+    .aboutContent .container .about .smallHonnerImg a img {
+        display: inline-block;
+        width: 180px;
+        height: 100%;
+        border: 1px solid white;
+        margin-left: 51px;
+
+    }
+    .aboutContent .container .about .smallHonnerImg a img{
+       max-width: 100%;
+    }
+}
+@media screen and (min-width: 1600px){
+    .aboutContent .container .about .smallHonnerImg a img {
+        width: 180px;
+        margin-left: 55px;
+    }
+    .smallHonnerImg{
+        text-align: left;
+    }
+
+}

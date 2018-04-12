@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/list.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+</head>
+<body>
+<div class="top">
+    <div class="topNav">
+        <div class="topNavLogo">
+            <a href="/">
+                <img src="images/topLogo.png" alt="">
+            </a>
+        </div>
+        <div class="navbar-header navUl hidden-sm hidden-md hidden-lg">
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand ">
+                <img src="images/topLogo.png" alt="">
+            </a>
+        </div>
+        <div class="navbar-collapse collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="about.html">关于白鲨</a></li>
+                <li><a href="procuctCenter.html">产品中心</a></li>
+                <li><a href="list_center.html">新闻资讯</a></li>
+                <li><a href="contactUs.html">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="topBanner">
+    </div>
+</div>
+<div class="contactContent">
+    <div class="container">
+        <div class="contactUs" id="contactUs">
+            <div class="contactUsWrap">
+                <h3 class="contactTitle">联系我们</h3>
+                <div class="contactForm">
+                    <div class="col-form">
+                        <form action="" class="responseText">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" placeholder="姓名">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" placeholder="电话">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" placeholder="邮箱：">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="3" placeholder="留言"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn  submit ">提交</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="contactInfo">
+                        <p>公　司：	光山白鲨针布有限公司</p>
+                        <p>地　址：	河南光山白鲨工业园</p>
+                        <p>电　话：	0376-8874656、8874646</p>
+                        <p>传　真：	0376-8874689</p>
+                        <p>邮　编：	465450</p>
+                        <p> E-mail：gsfq@gsbaisha.com</p>
+                        <p>网　址：	http://www.gsbaisha.com</p>
+                        <div class="siteMap  " id="allmap">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="imgLogo col-sm-3  col-md-3 footerBottom ">
+                <h4>
+                    <img src="images/logo.png" alt="" class="hidden-xs">
+                    <img src="images/logo2.png" alt="" class="visible-xs hidden-sm hidden-md  hidden-lg">
+                </h4>
+            </div>
+            <div class="footerTop">
+                <div class="siteMap col-sm-2  col-md-2">
+                    <h4>网站地图</h4>
+                    <ul class="list-unstyled">
+                        <li><a >首页</a></li>
+                        <li><a >关于白鲨</a></li>
+                        <li><a >产品中心</a></li>
+                        <li><a >新闻资讯</a></li>
+                        <li><a >联系我们</a></li>
+                    </ul>
+                </div>
+                <div class="siteMap col-sm-2  col-md-2">
+                    <h4>产品系列</h4>
+                    <ul class="list-unstyled">
+                        <li><a>棉纺系列</a></li>
+                        <li><a >毛纺系列</a></li>
+                        <li><a >麻纺系列</a></li>
+                        <li><a >无纺系列</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="focusUs col-sm-5 col-md-5 footerBottom">
+                <h4>
+                    <a >关注我们</a>
+                </h4>
+                <div class="qcorde">
+                    <span><img src="images/qcode1.jpg" alt=""></span>
+                    <span><img src="images/qcode2.jpg" alt=""></span>
+                    <span><img src="images/qcode3.jpg" alt=""></span>
+                </div>
+            </div>
+        </div>
+        <p class="footerText">
+            <span>Copyright 2005 GSBAISHA.All Rights Reserved</span>  <span>技术支持：中国纺机网 http://www.gsbaisha.com 豫ICP备12010563号-2</span>
+        </p>
+    </div>
+</div>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=Pwsl3iclLObe1NYzouAREmvgqd1bPfaY"></script>
+<script type="text/javascript">
+    // 百度地图API功能
+    var map = new BMap.Map("allmap");    // 创建Map实例
+    map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);  // 初始化地图,设置中心点坐标和地图级别
+    //添加地图类型控件
+    map.addControl(new BMap.MapTypeControl({
+        mapTypes:[
+            BMAP_NORMAL_MAP,
+            BMAP_HYBRID_MAP
+        ]}));
+    map.setCurrentCity("北京");          // 设置地图显示的城市 此项是必须设置的
+    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+
+</script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+<div class="breadcrumb">
+	<p><a href="">产品中心>></a><a href="">棉纺系列>></a><a href="">棉纺系列</a></p>
+</div>
+/**/
+<ul class="newsListConTitle hd">
+                    <li>
+                        <p>棉纺系列</p>
+                      	<ul>
+                      		<li><a href="">棉纺系列</a></li>
+                      		<li><a href="">棉纺系列</a></li>
+                      		<li><a href="">棉纺系列</a></li>
+                      		<li><a href="">棉纺系列</a></li>
+                      	</ul>	
+                    </li>
+                    <li>
+                        <p>毛纺系列</p>
+                        <ul>
+                      		<li><a href="">毛纺系列</a></li>
+                      		<li><a href="">毛纺系列</a></li>
+                      		<li><a href="">毛纺系列</a></li>
+                      		<li><a href="">毛纺系列</a></li>
+                      	</ul>
+                    </li>
+                    <li>
+                        <p>麻纺系列</p>
+						<ul>
+                      		<li><a href="">麻纺系列</a></li>
+                      		<li><a href="">麻纺系列</a></li>
+                      		<li><a href="">麻纺系列</a></li>
+                      		<li><a href="">麻纺系列</a></li>
+                      	</ul>
+                    </li>
+                    <li>
+                        <p>无纺系列</p>
+						<ul>
+                      		<li><a href="">无纺系列</a></li>
+                      		<li><a href="">无纺系列</a></li>
+                      		<li><a href="">无纺系列</a></li>
+                      		<li><a href="">无纺系列</a></li>
+                      	</ul>
+                    </li>
+                </ul>
+/*导航*/
+.newslistContent{
+	margin-top: 20px;
+}
+.breadcrumb{
+	padding: 10px 0;
+	border-radius: 0;
+	margin: 5px 15px 0; 
+	z-index: 3;
+	background: white;
+	
+}
+/*.breadcrumb a:first-child{
+	margin-left: 100px;
+}*/
+.breadcrumb a{
+	color: #666;
+	font-size: 14px;
+	margin-right: 5px;
+}
+.breadcrumb a:hover{
+	color: #1e80ca;
+}
+.newslistContent .newsListConTitle{
+	background: ;
+}
+
+.newslistContent .newsListConTitle li{
+	position: relative;
+	
+}
+.newslistContent .newsListConTitle li p:first-child{
+	position: relative;
+	line-height: 32px;
+
+}
+.newslistContent .newsListConTitle li ul{
+	position: absolute;
+	left: 77px;
+	top: 32px;
+	font-size: 12px;
+	border: 1px solid #cccccc;
+    background-color: #ffffff;
+   box-shadow: 3px 3px 4px #888888;
+    font-size: 12px;
+    display: none;
+    z-index: 3;
+    width: 100px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-align: left;
+}
+
+/*.newslistContent .newsListConTitle li ul li{
+	padding: 6px 11px;
+	width: auto;
+	display:inline-block;
+	
+}*/
+.newslistContent .newsListConTitle li ul li{
+	padding: 6px 0px;
+	display:block;
+	text-align: center;
+	/*border-bottom: 1px dashed #888;*/
+	
+}
+.newslistContent .newsListConTitle li ul li:hover{
+	background: #0d67ab;
+	/*border-bottom-color:#0d67ab;*/
+	
+}
+.newslistContent .newsListConTitle li ul li:hover a{
+	color: #fff;
+		
+}
+.newslistContent .newsListConTitle li ul li a{
+	color: #000;
+}
+.newslistContent .newsListConTitle li ul li a{
+	text-align: center;
+}
+.newslistContent .newsListConTitle li:hover ul{
+	display: block;
+	
+}
+@media screen and (max-width:767px){
+	.breadcrumb{
+		margin: 5px 5px 0;
+		padding: 5px 0;
+	}
+	.newslistContent{
+		margin-top:0px;
+	}
+	.newslistContent .newsListConTitle li ul{
+		left: 0px;
+		box-shadow: 1px 1px 2px #888888;
+	}
+	
+}
+@media screen and (min-width: 768px){
+	.newslistContent .newsListTitle {
+	    padding-top: 0px;
+	    padding-bottom: 20px;
+	    margin-top: 5px;
+	}
+	
+}
+@media screen and (min-width: 768px) and (max-width:1199px){
+	.newslistContent .newsListConTitle li ul{
+		left: 30px;
+	}
+}
+
+@media screen and (max-width:1200px){
+	.newsListConTitle li ul{
+		display: none;
+	}
+}	
+
+/*@media screen and (min-width:1600px){
+	.breadcrumb a:first-child{
+			margin-left: 100px;
+		}
+}*/

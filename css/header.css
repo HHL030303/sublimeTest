@@ -1,0 +1,315 @@
+.top{
+    width: 100%;
+    vertical-align: top;
+    font-size: 0;
+    height: 568px;
+    position: relative;
+}
+.top>div{
+    display: inline-block;
+}
+.top .topNav{
+    width: 17%;
+    background: white;
+    position: fixed;
+    top:0;
+    z-index: 1;
+}
+.top .topNav .topNavLogo{
+    width: 100%;
+    height:144px;
+    background: -webkit-linear-gradient( #62b2ef , #0d67ab);
+    text-align: center;
+    line-height: 144px;
+    /*background:-webkit-linear-gradient( #62b2ef , #0d67ab)  ;*/
+    /*background-image: url("../images/topLogo.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    /*background:-webkit-linear-gradient( #62b2ef , #0d67ab), url(../images/topLogo.png);*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+
+}
+.top .topNav .topNavLogo img{
+    vertical-align: middle;
+    max-width: 100%;
+}
+.top .topNav  .navUl{
+    background: white;
+    margin-top: 25px;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+}
+.top .topNav  .navUl li{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.top .topNav  .navUl li a{
+    font-size: 16px;
+    color:#333333 ;
+}
+.top .topBanner{
+    height: 100%;
+    position: fixed;
+    left: 17%;
+    right: 0;
+    z-index: -1;
+    top:0;
+    background-image:url(../images/banner1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+  .navbar-nav > li {
+    text-align: center;
+  }
+.navbar-header .navbar-brand.active, .nav > li > a.active {
+    position: relative;
+    color: #1e80ca;
+}
+.navbar-brand {
+    height: 50px;
+    padding: 0;
+    font-size: 16px;
+    display: inline-block;
+    width: 100%;
+    line-height: 50px;
+    color: #333333;
+}
+.navbar-brand img{
+    vertical-align: middle;
+}
+@media screen and (max-width: 768px){
+     .navbar-collapse{
+        background: -webkit-linear-gradient( #62b2ef , #0d67ab);
+         width: 160px;
+         position: fixed;
+         right: 0px;
+         top:46px;
+         bottom: 0;
+         text-align: center;
+    }
+    .navbar-nav > li {
+        height: 50px;
+        line-height: 50px;
+    }
+     .navbar-nav > li > a, .navbar-brand {
+        display: block;
+        font-size: 14px;
+        height: 50px;
+        line-height: 50px;
+        color: white;
+        padding: 0 0 0 0px
+    }
+    .navbar-nav {
+        margin: 50px 0 0 0;
+    }
+
+    .top .topNav .navUl .navbar-brand img {
+        width: 144px;
+        display: inline-block;
+    }
+    .navbar-brand {
+        height: 46px;
+        padding: 0;
+        font-size: 18px;
+        line-height: 46px;
+        display: inline-block;
+        width: auto;
+        padding: 0px 15px;
+        color: white;
+    }
+    .top .topNav  .navUl{
+        background: transparent;
+        margin-top: 0;
+        text-align: left;
+        line-height: 46px;
+        height: 46px;
+    }
+    .collapse {
+        transform:translate3d(160px,0,0);
+        transition: 0.5s
+    }
+    .collapse.in {
+        transform:translate3d(0px,0,0);
+        transition: 0.5s
+    }
+    .top{
+        width: 100%;
+        vertical-align: top;
+        font-size: 14px;
+        height:46px;
+        position: relative;
+    }
+    .top .topNav{
+        width: 100%;
+        position: fixed;
+        top:0;
+        left: 0;
+        z-index: 1;
+        height:46px;
+        background: rgba(0,0,0,0.8);
+    }
+
+    .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .navbar .navbar-collapse {
+        background: #237bbe;
+    }
+    .top .topNav .topNavLogo{
+        width: 100%;
+        height:144px;
+        background: -webkit-linear-gradient( #62b2ef , #0d67ab);
+        text-align: center;
+        line-height: 144px;
+        display: none;
+    }
+    .top .topNav .topNavLogo img{
+        vertical-align: middle;
+        max-width: 100%;
+    }
+    .top .topNav  .navUl li{
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+    }
+    .top .topNav  .navUl li a{
+        font-size: 16px;
+        color:#333333 ;
+    }
+    .top .topBanner{
+        height: 100%;
+        position: absolute;
+        left: 17%;
+        right: 0;
+        z-index: -1;
+        display: none;
+    }
+}
+@media screen and (max-width: 992px) and (min-width: 768px){
+    .top{
+
+    }
+    .top .topNav  .navUl{
+        margin-top: 0;
+        display: none;
+    }
+    .topNavLogo{
+        display: none
+    }
+    .navUl,.navbar-collapse{
+         background: -webkit-linear-gradient( #62b2ef , #0d67ab);
+    }
+     .top .topBanner{
+        height: 360px;
+        position: absolute;
+        left: 17%;
+        right: 0;
+        z-index: -1;
+    }
+   
+}
+@media screen and (max-width: 1199px) and (min-width: 768px){
+    .top{
+        height: 470px;
+    }
+    .navbar-nav > li > a {
+        padding-top: 0;
+        padding-bottom: 0;
+        font-size: 14px;
+        color: #000;
+    }
+    .navbar-nav > li {
+        height: 60px;
+        line-height: 60px
+    }
+    .navbar-nav{
+        /*margin-top: 20px;*/
+    }
+     .top .topBanner{
+        height: 470px;
+        position: fixed;
+        left: 17%;
+        right: 0;
+        z-index: -1;
+    }
+}
+@media screen and (min-width: 1200px){
+    .top{
+        height: 470px;
+    }
+    .navbar-nav > li > a {
+        padding-top: 0;
+        padding-bottom: 0;
+        font-size: 16px;
+        color: #333333;
+    }
+    .navbar-nav > li {
+        height: 50px;
+        line-height: 50px
+    }
+    .navbar-nav{
+        /*margin-top: 25px;*/
+    }
+    .navbar-collapse{
+        margin-top: 0px;
+    }
+    .navbar-header .navbar-brand.active:after, .nav > li > a.active:after {
+        content: "";
+        position: absolute;
+        left: 13%;
+        top: 50%;
+        width: 20%;
+        height: 2px;
+        background: #1e80ca;
+        transform: translateY(-2px);
+        -webkit-transform: translateY(-2px);
+        -moz-transform: translateY(-2px);;
+    }
+    .top .topBanner{
+        height: 470px;
+        position: fixed;
+        left: 17%;
+        right: 0;
+        z-index: -1;
+    }
+}
+@media screen and (min-width: 1600px){
+    .top{
+        height: 568px;
+    }
+    .navbar-nav > li {
+        height: 60px;
+        line-height: 60px
+    }
+    .navbar-nav{
+        /*margin-top: 25px;*/
+    }
+    .navbar-collapse{
+        /*margin-top: 25px;*/
+    }
+    
+     .top .topBanner{
+        height: 568px;
+        position: fixed;
+        left: 17%;
+        right: 0;
+        z-index: -1;
+    }
+}
+body.open{
+    position: fixed;
+    /*top:0;*/
+    /*left: 0;*/
+    /*bottom: 0;*/
+    /*right: 0;*/
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
